@@ -1,0 +1,70 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/filter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_calendar"
+        android:minHeight="300dp"
+        android:elevation="12dp"
+        >
+
+
+    <TextView
+            android:id="@+id/filter_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="ABOUT US"
+            android:textColor="@color/newblack"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+            android:id="@+id/filter_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:scrollbarFadeDuration="1000"
+            app:layout_constraintBottom_toTopOf="@id/linearLayout4"
+            app:layout_constraintTop_toBottomOf="@id/filter_header"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp"
+                tools:text="@string/mission" />
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="176dp"
+            android:layout_height="69dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+                android:id="@+id/dialog_primary_button"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ok"
+                android:textColor="@color/white"
+                android:background="@drawable/custom_btn"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

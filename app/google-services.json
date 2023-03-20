@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1076228213569",
+    "firebase_url": "https://fp-track-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fp-track",
+    "storage_bucket": "fp-track.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076228213569:android:a4051e5348e7c2b57fafc0",
+        "android_client_info": {
+          "package_name": "com.company.tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076228213569-52qop5et4pkqkeesgnri0ss6u8nivs5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQW2vOscrOQp6vP3ivZhEDs0OsOhzQOlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076228213569-52qop5et4pkqkeesgnri0ss6u8nivs5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076228213569:android:b9dcdb183acdf27d7fafc0",
+        "android_client_info": {
+          "package_name": "com.example.tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076228213569-52qop5et4pkqkeesgnri0ss6u8nivs5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQW2vOscrOQp6vP3ivZhEDs0OsOhzQOlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076228213569-52qop5et4pkqkeesgnri0ss6u8nivs5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

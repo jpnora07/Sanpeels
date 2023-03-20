@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Arrival"
+        app:cardBackgroundColor="@color/white"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="2dp"
+        app:contentPadding="3dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/arrival_truck"
+                />
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/timeArrive"
+                    android:layout_width="327dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+
+            <TextView
+
+                    android:id="@+id/fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:padding="5dp"
+                    android:text="The Fruit peel collector has arrive."
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
